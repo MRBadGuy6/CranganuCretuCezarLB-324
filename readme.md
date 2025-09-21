@@ -15,6 +15,7 @@ Beim Push werden automatisch die Tests mit pytest ausgeführt
 - pre-commit install
 - pre-commit install --hook-type pre-push
 
+Mithilfe von Python habe ich den direkten Path von meiner pre-commit.exe angegeben
 
 ## Aufgabe 4
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
