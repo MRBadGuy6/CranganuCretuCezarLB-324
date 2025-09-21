@@ -7,7 +7,7 @@ repos:
       name: black
       language_version: python3
       
-- repo:
+- repo: local
   hooks:
   - id: pytest
     name: Run pytest
