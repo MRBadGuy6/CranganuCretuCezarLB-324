@@ -6,13 +6,3 @@ repos:
     - id: black
       name: black
       language_version: python3
-
-- repo:
-  hooks:
-  - id: pytest
-    name: Run pytest
-    entry: pytest
-    language: system
-    pass_filenames: false
-    stages: [push]
-    always_run: true
