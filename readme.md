@@ -9,11 +9,11 @@ Beim Push werden automatisch die Tests mit pytest ausgeführt
 
 1. Mit rechtklick im Ordner Powershell öffnen.
 2. Pakete installieren:
-pip install -r requirements.txt
-pip install pre-commit black pytest
+- pip install -r requirements.txt
+- pip install pre-commit black pytest
 3. pre-commit Hooks installieren:
-pre-commit install
-pre-commit install --hook-type pre-push
+- pre-commit install
+- pre-commit install --hook-type pre-push
 
 
 ## Aufgabe 4
