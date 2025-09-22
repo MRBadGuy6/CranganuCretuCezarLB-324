@@ -19,3 +19,5 @@ Mithilfe von Python habe ich den direkten Path von meiner pre-commit.exe angegeb
 
 ## Aufgabe 4
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
+
+tagebbbuch-a4cmecg0d5hnhhbv.switzerlandnorth-01.azurewebsites.net
