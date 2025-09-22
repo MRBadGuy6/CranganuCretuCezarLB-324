@@ -45,9 +45,6 @@ def logout():
 
 @app.route("/add_entry", methods=["POST"])
 def add_entry():
-    if not session.get("logged_in"):
-        flash("You must be logged in to add an entry.", "error")
-        return redirect(url_for("login"))
     content = request.form.get("content")
     happiness = request.form.get("happiness", "")
     if content:
