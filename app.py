@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 load_dotenv()
-PASSWORD = os.getenv("MrBadGuy6")
+PASSWORD = os.getenv("PASSWORD")
 entries = []
 
 
