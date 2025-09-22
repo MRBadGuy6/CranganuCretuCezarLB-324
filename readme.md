@@ -25,7 +25,7 @@ Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übe
 1. Auf Azure gehen
 2. App service wählen für Tagebbbuch
 3. Konfiguration anklicken
-4. Unter Applikationseinstellung Variabel eingeben
+4. Unter Applikationseinstellung Variabel eingeben (übertragen des Lokalen .env auf Azure):
 - Name: PASSWORD
 - Wert: MrBadGuy6
 5. Speichern
