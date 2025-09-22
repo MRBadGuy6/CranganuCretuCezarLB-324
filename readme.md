@@ -21,3 +21,12 @@ Mithilfe von Python habe ich den direkten Path von meiner pre-commit.exe angegeb
 Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
 
 (tagebbbuch-a4cmecg0d5hnhhbv.switzerlandnorth-01.azurewebsites.net)
+
+1. Auf Azure gehen
+2. App service wählen für Tagebbbuch
+3. Konfiguration anklicken
+4. Unter Applikationseinstellung Variabel eingeben
+- Name: PASSWORD
+- Wert: MrBadGuy6
+5. Speichern
+6. App neu starten
