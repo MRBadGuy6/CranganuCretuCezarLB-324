@@ -9,10 +9,10 @@ repos:
 
 - repo: local
   hooks:
-    - id: pytest
-      name: Run pytest
-      entry: pytest
-      language: system
-      pass_filenames: false
-      stages: [push]
-      always_run: true
+  - id: pytest
+    name: Run pytest
+    entry: pytest
+    language: system
+    pass_filenames: false
+    stages: [push]
+    always_run: true
